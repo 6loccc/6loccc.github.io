@@ -14,21 +14,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 50px;
+    height: 60px;
     background-color: darkmagenta;
     position: fixed;
     width: 100%;
     z-index: 100;
-}
-
-.name {
-    display: flex;
-    text-align: center;
-    height: 80px;
-    background-color: blue;
-    display: block;
-}
-
+}   
 .navbar {
     display: flex;
     margin-right: 10px;
@@ -49,7 +40,7 @@ body {
 
 .navbar a {
     display: block;
-    padding: 13px 20px;
+    padding: 14px 20px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -57,7 +48,7 @@ body {
 }
 
 .navbar a:hover {
-    background-color: gray;
+    background-color: rgb(159, 255, 50);
 }
 
 .header {
@@ -65,11 +56,11 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .header {
-    height: 60vh !important;
-    background: url(img/header.jpg) no-repeat center;
+    height: 100vh !important;
+    background: url(img/header2.jpg) no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .title { 
     margin-bottom: 40px;
@@ -77,15 +68,66 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
+    text-shadow: 0 .6rem 8rem rgba(0, 0, 0, .5);
 }
 
+.contact h3 {
+    text-shadow: 0 .6rem 8rem rgba(0, 0, 0, .5);
+    font-size: 30px;
+    color: rgb(159, 255, 50);
+    text-align: center;
+    margin-block-end: 30px;
+    
+}
+.me h2 { 
+    color: rgb(159, 255, 50);
+    text-align: center;
+    text-shadow: 0 .6rem 8rem rgba(0, 0, 0, .5);
+}
+.me p {
+    font-size: 20px;
+}
 
+.contact p {
+    font-size: 20px;
+}
+.exp h3 {
+    text-align: center;
+    text-shadow: 0 .6rem 8rem rgba(0, 0, 0, .5);
+    font-size: 30px;
+    color: rgb(159, 255, 50);
+}
+.exp p {
+    font-size: 20px;
+
+}
+.studies h3 {
+    text-align: center;
+    text-shadow: 0 .6rem 8rem rgba(0, 0, 0, .5);
+    font-size: 30px;
+    color: rgb(159, 255, 50);
+}
+.studies p {
+    font-size: 20px;
+}
+
+.box-techn .subtitle { 
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    margin-block-end: 15px;
+    text-shadow: 0 .6rem 8rem rgba(0, 0, 0, .5); 
+
+}
+
+.box-techn {
+    margin-block-start: 400px;
+}
 
 p {
     margin-bottom: 40px;
     font-size: 18px;
     color: #fff;
-
 }
 
 .btn { 
@@ -103,9 +145,90 @@ p {
 }
 
 content {
-    height: 50vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.me {
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.exp{
+    padding: 20px;
+    background: url(img/header2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.studies {
+    padding: 30px;
+    background: url(img/header2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact {
+    padding: 30px; 
+    background: #101010;
+}
+.contact .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color:#fff;
+    background: darkmagenta;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.contact i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color:#fff;
+    background: darkmagenta;
+    font-size: 2rem;
+    margin: 1rem 0;
+    
+
+}
+
+.box-container { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i { 
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color:#fff;
+    background: darkmagenta;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+footer {
+    background: #1f1d1d;
 }
